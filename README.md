@@ -19,7 +19,7 @@ This repository contains **Dockerfile** of [apache-airflow](https://github.com/a
 
 Pull the image from the Docker repository.
 
-    docker pull puckel/docker-airflow
+    docker pull rezhajulio/docker-airflow
 
 ## Build
 
@@ -38,7 +38,7 @@ Don't forget to update the airflow images in the docker-compose files to puckel/
 
 By default, docker-airflow runs Airflow with **SequentialExecutor** :
 
-    docker run -d -p 8080:8080 puckel/docker-airflow webserver
+    docker run -d -p 8080:8080 rezhajulio/docker-airflow webserver
 
 If you want to run another executor, use the other docker-compose.yml files provided in this repository.
 
